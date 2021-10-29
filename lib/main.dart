@@ -28,8 +28,6 @@ class BottomApp extends StatefulWidget {
 
 class _BottomAppState extends State<BottomApp> {
   int _selectedIndex = 0;
-  static const TextStyle optionStyle =
-      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
   final List<Widget> _widgetOption = [
     const PageViewP(),
